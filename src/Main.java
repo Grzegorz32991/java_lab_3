@@ -1,10 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
-public class Main {
 
-    public static void main(String[] args) {
 
         /* ćw 2 klasy */
         /* zad.1
@@ -14,5 +9,7 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
-    }
-}
+
+
+
+
