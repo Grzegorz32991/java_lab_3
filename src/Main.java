@@ -1,7 +1,25 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
         /* ćw 4 klasy */
+
+        Student st = new Student(new Osoba("Ola","Kaczka", 98421), WydzialEnum.Bankowość);
+        Student st1 = new Student(new Osoba("Ewa","Czwa", 98706), WydzialEnum.Programowanie);
+        Student st2 = new Student(new Osoba("Ula","Kula", 97324), WydzialEnum.Bankowość);
+        Student st3 = new Student(new Osoba("Weronika","Mika", 98947), WydzialEnum.Spedycja);
+        Student st4 = new Student(new Osoba("Andrzej","Kolba", 98213), WydzialEnum.Programowanie);
+
+        ArrayList<Student> students = new <Student>ArrayList();
+        students.add(st);
+        students.add(st1);
+        students.add(st2);
+        students.add(st3);
+        students.add(st4);
+        for(Student st5 : students){
+            System.out.println(st5.toString());
+        }
 
         /* zad.1
             a) Stworzyć klasę Osoba z polami prywatnymi:
