@@ -5,7 +5,19 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Punkt punktA = new Punkt(4);
+        System.out.println(punktA.toString());
+        Punkt punkt = new Punkt(4, 8, 6);
+        System.out.println(punkt.toString());
+        punktA.setpY(2);
+        System.out.println(punktA.toString());
+        punktA.getpX();
+        punktA.getpZ();
+        punkt.getpX();
+        punkt.getpZ();
 
+
+        punkt.wynik();
         /* ćw 3 klasy */
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
